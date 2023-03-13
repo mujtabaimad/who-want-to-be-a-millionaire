@@ -1,0 +1,15 @@
+.progress-list {
+    .progress-list-item {
+        &.passed {
+            color: green;
+        }
+
+        &.current {
+            color: yellow;
+        }
+
+        &.not-reached {
+            color: grey;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.q-selected-answer {
+    border-color: orange;
+    color: orange;
+
+    &.q-confirmed {
+        background-color: orange;
+        color: white;
+    }
+}
+
+.reveal-answer {
+    &.q-selected-answer {
+        background-color: tomato;
+        border: 1px solid tomato;
+    }
+    &.q-correct-answer {
+        background-color: teal;
+        border: 1px solid teal;
+    }
+}
